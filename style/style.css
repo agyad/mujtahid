@@ -142,7 +142,7 @@ p {
     width: 100%;
     height: fit-content;
     display: grid;
-    grid-template-columns: repeat(auto-fill, minmax(500px, 2fr));
+    grid-template-columns: repeat(auto-fit, minmax(500px, 2fr));
     grid-template-rows: repeat(auto-fill, minmax(450px, 1fr));
     row-gap: 20px;
 }
